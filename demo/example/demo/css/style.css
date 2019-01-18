@@ -1,0 +1,277 @@
+body {
+  width: 16rem;
+  margin: 0 auto; }
+
+.body_container {
+  position: relative;
+  width: 12.8rem;
+  height: auto;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.1); }
+
+.container1 {
+  width: 12.8rem;
+  height: 8.5333333333rem;
+  position: relative;
+  background-color: cornflowerblue;
+  z-index: -1; }
+
+.container2 {
+  width: 11.9466666667rem;
+  height: 1.4933333333rem;
+  position: relative;
+  background-color: crimson;
+  border-radius: 0.2133333333rem;
+  margin: 0 auto;
+  top: -0.7466666667rem;
+  box-shadow: 0rem 0rem 0.4266666667rem rgba(0, 0, 0, 0.13); }
+
+.container3 {
+  width: 11.9466666667rem;
+  height: 1.4933333333rem;
+  position: relative;
+  background-color: crimson;
+  border-radius: 0.2133333333rem;
+  margin: -0.2133333333rem auto;
+  box-shadow: 0rem 0rem 0.4266666667rem rgba(0, 0, 0, 0.13); }
+
+.container4 {
+  width: 11.9466666667rem;
+  height: 3.4133333333rem;
+  position: relative;
+  margin: 0.8533333333rem auto 1.7066666667rem; }
+
+.container4:after {
+  content: '';
+  width: 0;
+  height: 0;
+  clear: both;
+  overflow: hidden; }
+
+.container4 ul {
+  width: 11.9466666667rem;
+  height: 3.4133333333rem; }
+
+.container4 li {
+  width: 2.7733333333rem;
+  height: 3.4133333333rem;
+  float: left;
+  margin-right: 0.2688rem;
+  background-color: coral;
+  box-shadow: 0rem 0rem 0.4266666667rem rgba(0, 0, 0, 0.13); }
+
+.container4 li:nth-child(4) {
+  margin-right: 0; }
+
+.container5 {
+  width: 11.9466666667rem;
+  height: 0.8533333333rem;
+  position: relative;
+  background-color: crimson;
+  border-radius: 0.2133333333rem;
+  margin: 0rem auto; }
+
+.container5:after {
+  content: '';
+  width: 0;
+  height: 0;
+  clear: both;
+  overflow: hidden; }
+
+.container5 li {
+  width: 4.2666666667rem;
+  height: 0.8533333333rem;
+  float: left;
+  background-color: dodgerblue;
+  box-shadow: 0rem 0rem 0.4266666667rem rgba(0, 0, 0, 0.13); }
+
+.container5 li:nth-child(2) {
+  width: 2.56rem;
+  height: 0.8533333333rem;
+  float: right;
+  background-color: chartreuse; }
+
+.container6 {
+  width: 11.9466666667rem;
+  height: 0.8533333333rem;
+  position: relative;
+  background-color: crimson;
+  border-radius: 0.2133333333rem;
+  margin: 0.2133333333rem auto 0.2133333333rem; }
+
+.container6:after {
+  content: '';
+  width: 0;
+  height: 0;
+  clear: both;
+  overflow: hidden; }
+
+.container6 ul {
+  width: 11.9466666667rem;
+  height: auto; }
+
+.container6 li {
+  width: 1.8773333333rem;
+  height: 0.8533333333rem;
+  float: left;
+  margin-right: 0.5333333333rem;
+  background-color: coral; }
+
+.container4 li:nth-child(4) {
+  margin-right: 0; }
+
+.container7 {
+  width: 11.9466666667rem;
+  height: 11.0933333333rem;
+  position: relative;
+  background-color: crimson;
+  border-radius: 0.2133333333rem;
+  margin: 0.4266666667rem auto;
+  padding: 0; }
+
+.container7:after {
+  content: '';
+  width: 0;
+  height: 0;
+  clear: both;
+  overflow: hidden; }
+
+.container7 ul {
+  width: 11.9466666667rem;
+  padding: 0; }
+
+.container7 li {
+  width: 5.76rem;
+  height: 4.6933333333rem;
+  float: left;
+  background-color: coral;
+  margin: 0.4266666667rem 0.4266666667rem 0.4266666667rem 0;
+  border-radius: 0.1706666667rem;
+  box-shadow: 0rem 0rem 0.4266666667rem rgba(0, 0, 0, 0.13); }
+
+.container7 li:nth-child(even) {
+  margin-right: 0; }
+
+.container7 li div:nth-child(1) {
+  width: 1.7066666667rem;
+  height: 0.64rem;
+  background-color: rgba(0, 0, 0, 0.44);
+  color: #fff;
+  position: relative;
+  top: 2.7733333333rem;
+  left: 0;
+  font-size: 0.4266666667rem;
+  text-align: left;
+  line-height: 0.64rem; }
+
+.container7 li div:nth-child(2) {
+  width: 5.76rem;
+  height: 0.5333333333rem;
+  background-color: rgba(255, 255, 255, 0.56);
+  color: #666;
+  position: relative;
+  top: 2.7733333333rem;
+  left: 0;
+  font-size: 0.3413333333rem;
+  text-align: left;
+  line-height: 0.5333333333rem;
+  text-indent: 0.2133333333rem; }
+
+.container7 li div:nth-child(3) {
+  width: 5.76rem;
+  height: 0.7466666667rem;
+  background-color: rgba(255, 255, 255, 0.35);
+  color: #fff;
+  position: relative;
+  top: 2.7733333333rem;
+  left: 0;
+  font-size: 0.4266666667rem;
+  text-align: left;
+  line-height: 0.64rem;
+  border-bottom-left-radius: 0.1706666667rem;
+  border-bottom-right-radius: 0.1706666667rem; }
+
+.container8 {
+  width: 11.9466666667rem;
+  height: 1.4933333333rem;
+  position: relative;
+  background-color: crimson;
+  margin: 0.8533333333rem auto 0.8533333333rem;
+  box-shadow: 0rem 0rem 0.4266666667rem rgba(0, 0, 0, 0.13); }
+
+.container9 {
+  width: 11.9466666667rem;
+  height: 2.9866666667rem;
+  position: relative;
+  margin: 0.2133333333rem auto 0.2133333333rem;
+  border-bottom: 0.0426666667rem solid rgba(0, 0, 0, 0.1); }
+
+.container9:after {
+  content: '';
+  width: 0;
+  height: 0;
+  clear: both;
+  overflow: hidden; }
+
+.container9 ul {
+  width: 11.9466666667rem;
+  height: auto; }
+
+.container9 li {
+  width: 2.7733333333rem;
+  height: 1.92rem;
+  float: left;
+  margin-right: 0.2688rem;
+  background-color: coral;
+  box-shadow: 0rem 0rem 0.4266666667rem rgba(0, 0, 0, 0.13); }
+
+.container9 li:nth-child(4) {
+  margin-right: 0; }
+
+.container10 {
+  width: 11.9466666667rem;
+  height: 1.0666666667rem;
+  position: relative;
+  background-color: crimson;
+  border-radius: 0.2133333333rem;
+  margin: 1.0666666667rem auto 0.64rem; }
+
+.container11 {
+  width: 11.9466666667rem;
+  height: 7.2533333333rem;
+  position: relative;
+  margin: 0 auto; }
+
+.container11:after {
+  content: '';
+  width: 0;
+  height: 0;
+  clear: both;
+  overflow: hidden; }
+
+.container11 ul {
+  width: 11.9466666667rem;
+  height: auto; }
+
+.container11 li {
+  width: 3.9822222222rem;
+  height: 5.12rem;
+  float: left;
+  background-color: coral;
+  box-shadow: 0rem 0rem 0.4266666667rem rgba(0, 0, 0, 0.13);
+  position: relative; }
+
+.container11 li div {
+  width: 3.9822222222rem;
+  height: 1.28rem;
+  background-color: rebeccapurple;
+  position: relative;
+  top: 5.5466666667rem; }
+
+.container11 li:nth-child(2) div {
+  background-color: chartreuse; }
+
+.container11 li:nth-child(3) div {
+  background-color: deeppink; }
+
+/*# sourceMappingURL=style.css.map */

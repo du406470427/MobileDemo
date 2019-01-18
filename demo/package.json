@@ -1,0 +1,8 @@
+{
+  "name": "demo",
+  "version": "2.2.1",
+  "main": "src/hotcss.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

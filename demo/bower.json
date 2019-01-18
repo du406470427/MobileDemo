@@ -1,0 +1,14 @@
+{
+  "name": "demo",
+  "main": "hotcss.js",
+  "license": "MIT",
+  "ignore": [
+    "dev_tools",
+    "example",
+    "package.json",
+    ".gitignore",
+    ".npmignore",
+    ".sass-cache",
+    "config.codekit"
+  ]
+}
