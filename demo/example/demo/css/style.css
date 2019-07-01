@@ -1,6 +1,7 @@
 body {
   width: 16rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background-color: #f6f6f6; }
 
 .body_container {
   position: relative;
@@ -14,11 +15,16 @@ body {
   height: 8.5333333333rem;
   position: relative;
   background-color: cornflowerblue;
-  z-index: -1; }
+  z-index: -1;
+  background: url("../img/giftListBanner.png") no-repeat;
+  background-size: 100% 100%; }
 
 .container2 {
   width: 11.9466666667rem;
   height: 1.4933333333rem;
+  line-height: 1.4933333333rem;
+  text-align: center;
+  font-size: 0.5546666667rem;
   position: relative;
   background-color: crimson;
   border-radius: 0.2133333333rem;
@@ -30,6 +36,9 @@ body {
   width: 11.9466666667rem;
   height: 1.4933333333rem;
   position: relative;
+  line-height: 1.4933333333rem;
+  text-align: center;
+  font-size: 0.5546666667rem;
   background-color: crimson;
   border-radius: 0.2133333333rem;
   margin: -0.2133333333rem auto;
@@ -63,6 +72,10 @@ body {
 .container4 li:nth-child(4) {
   margin-right: 0; }
 
+.container4 li img {
+  width: 2.7733333333rem;
+  height: 3.4133333333rem; }
+
 .container5 {
   width: 11.9466666667rem;
   height: 0.8533333333rem;
@@ -81,6 +94,9 @@ body {
 .container5 li {
   width: 4.2666666667rem;
   height: 0.8533333333rem;
+  line-height: 0.8533333333rem;
+  text-align: center;
+  font-size: 0.512rem;
   float: left;
   background-color: dodgerblue;
   box-shadow: 0rem 0rem 0.4266666667rem rgba(0, 0, 0, 0.13); }
@@ -113,6 +129,9 @@ body {
 .container6 li {
   width: 1.8773333333rem;
   height: 0.8533333333rem;
+  line-height: 0.8533333333rem;
+  text-align: center;
+  font-size: 0.4266666667rem;
   float: left;
   margin-right: 0.5333333333rem;
   background-color: coral; }
@@ -147,7 +166,9 @@ body {
   background-color: coral;
   margin: 0.4266666667rem 0.4266666667rem 0.4266666667rem 0;
   border-radius: 0.1706666667rem;
-  box-shadow: 0rem 0rem 0.4266666667rem rgba(0, 0, 0, 0.13); }
+  box-shadow: 0rem 0rem 0.4266666667rem rgba(0, 0, 0, 0.13);
+  background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1561965184181&di=f8e8fe6cf0c9c2af86b6d7a9bd94c05c&imgtype=0&src=http%3A%2F%2Fccm.ddcdn.com%2Fext%2Fphoto-o%2F05%2Fdf%2F73%2Fc5%2Froom-near-pool-side.jpg") no-repeat;
+  background-size: 100% 100%; }
 
 .container7 li:nth-child(even) {
   margin-right: 0; }
@@ -167,8 +188,8 @@ body {
 .container7 li div:nth-child(2) {
   width: 5.76rem;
   height: 0.5333333333rem;
-  background-color: rgba(255, 255, 255, 0.56);
-  color: #666;
+  background-color: rgba(0, 0, 0, 0.33);
+  color: #fff;
   position: relative;
   top: 2.7733333333rem;
   left: 0;
@@ -194,6 +215,9 @@ body {
 .container8 {
   width: 11.9466666667rem;
   height: 1.4933333333rem;
+  line-height: 1.4933333333rem;
+  text-align: center;
+  font-size: 0.5546666667rem;
   position: relative;
   background-color: crimson;
   margin: 0.8533333333rem auto 0.8533333333rem;
@@ -220,10 +244,16 @@ body {
 .container9 li {
   width: 2.7733333333rem;
   height: 1.92rem;
+  line-height: 1.92rem;
+  text-align: center;
+  font-size: 0.4266666667rem;
   float: left;
   margin-right: 0.2688rem;
   background-color: coral;
   box-shadow: 0rem 0rem 0.4266666667rem rgba(0, 0, 0, 0.13); }
+
+.container9 li img {
+  width: 100%; }
 
 .container9 li:nth-child(4) {
   margin-right: 0; }
@@ -261,12 +291,18 @@ body {
   box-shadow: 0rem 0rem 0.4266666667rem rgba(0, 0, 0, 0.13);
   position: relative; }
 
+.container11 li img {
+  width: 3.9822222222rem;
+  height: 5.12rem; }
+
 .container11 li div {
   width: 3.9822222222rem;
   height: 1.28rem;
   background-color: rebeccapurple;
   position: relative;
-  top: 5.5466666667rem; }
+  line-height: 1.28rem;
+  text-align: center;
+  font-size: 0.4266666667rem; }
 
 .container11 li:nth-child(2) div {
   background-color: chartreuse; }

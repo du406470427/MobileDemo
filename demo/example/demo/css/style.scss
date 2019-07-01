@@ -4,6 +4,7 @@ $designWidth: 750;
 body{
   width: 16rem;
   margin: 0 auto;
+  background-color: #f6f6f6;
 }
 
 .body_container{
@@ -20,12 +21,17 @@ body{
   position: relative;
   background-color: cornflowerblue;
   z-index: -1 ;
+  background: url('../img/giftListBanner.png') no-repeat;
+  background-size: 100% 100%;
 }
 
 
 .container2 {
   width: px2rem(560);
   height: px2rem(70);
+  line-height: px2rem(70);
+  text-align: center;
+  font-size: px2rem(26);
   position: relative;
   background-color: crimson;
   border-radius: px2rem(10);
@@ -39,6 +45,9 @@ body{
   width: px2rem(560);
   height: px2rem(70);
   position: relative;
+  line-height: px2rem(70);
+  text-align: center;
+  font-size: px2rem(26);
   background-color: crimson;
   border-radius: px2rem(10);
   margin: px2rem(-10) auto;
@@ -78,6 +87,11 @@ body{
   margin-right: 0;
 }
 
+.container4 li img{
+  width: px2rem(130);
+  height: px2rem(160);
+}
+
 
 .container5 {
   width: px2rem(560);
@@ -99,6 +113,9 @@ body{
 .container5 li{
   width: px2rem(200);
   height: px2rem(40);
+  line-height: px2rem(40);
+  text-align: center;
+  font-size: px2rem(24);
   float: left;
   background-color: dodgerblue;
   box-shadow: px2rem(0) px2rem(0) px2rem(20) rgba(0,0,0,0.13);
@@ -134,6 +151,9 @@ body{
 .container6 li{
   width: px2rem(88);
   height: px2rem(40);
+  line-height: px2rem(40);
+  text-align: center;
+  font-size: px2rem(20);
   float: left;
   margin-right: px2rem(25);
   background-color: coral;
@@ -176,6 +196,8 @@ body{
   margin: px2rem(20) px2rem(20) px2rem(20) 0;
   border-radius: px2rem(8);
   box-shadow: px2rem(0) px2rem(0) px2rem(20) rgba(0,0,0,0.13);
+  background: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1561965184181&di=f8e8fe6cf0c9c2af86b6d7a9bd94c05c&imgtype=0&src=http%3A%2F%2Fccm.ddcdn.com%2Fext%2Fphoto-o%2F05%2Fdf%2F73%2Fc5%2Froom-near-pool-side.jpg') no-repeat;
+  background-size: 100% 100%;
 }
 
 .container7 li:nth-child(even){
@@ -198,8 +220,8 @@ body{
 .container7 li div:nth-child(2){
   width: px2rem(270);
   height: px2rem(25);
-  background-color: rgba(255,255,255,0.56);
-  color: #666;
+  background-color: rgba(0,0,0,0.33);
+  color: #fff;
   position: relative;
   top: px2rem(130);
   left: 0;
@@ -230,6 +252,9 @@ body{
 .container8 {
   width: px2rem(560);
   height: px2rem(70);
+  line-height: px2rem(70);
+  text-align: center;
+  font-size: px2rem(26);
   position: relative;
   background-color: crimson;
   margin: px2rem(40) auto px2rem(40);
@@ -262,10 +287,18 @@ body{
 .container9 li{
   width: px2rem(130);
   height: px2rem(90);
+  line-height: px2rem(90);
+  text-align: center;
+  font-size: px2rem(20);
   float: left;
   margin-right: px2rem(12.6);
   background-color: coral;
   box-shadow: px2rem(0) px2rem(0) px2rem(20) rgba(0,0,0,0.13);
+}
+
+
+.container9 li img{
+  width: 100%;
 }
 
 .container9 li:nth-child(4){
@@ -314,12 +347,20 @@ body{
   position: relative;
 }
 
+.container11 li img{
+  width: px2rem(560/3);
+  height: px2rem(240);
+}
+
 .container11 li div{
   width: px2rem(560/3);
   height: px2rem(60);
   background-color: rebeccapurple;
   position: relative;
-  top: px2rem(260);
+  line-height: px2rem(60);
+  text-align: center;
+  font-size: px2rem(20);
+  //top: px2rem(260);
 }
 
 .container11 li:nth-child(2) div{
